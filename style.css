@@ -19,16 +19,16 @@ box-sizing: border-box;
     margin: auto;
  }
 
-li {
-    list-style: disc;
+ ul {
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
     background-color: aqua;
-    text-align: center;
-    font-size: 35px;
-    border: 2px black solid;
-    width: 450px;
-    height: 70px;
-    padding: 5px 10px;
-    margin-left: 255px;
-    margin-top: 2px;
-    color: black
- } 
+    border: 3px, black, solid;
+ }
+
+ .list {
+    background-color: black;
+    color: white
+ }
