@@ -1,7 +1,7 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-background-color: lightcoral;
+background-color: rgb(20, 55, 138);
 font-size: 20px;
 box-sizing: border-box;
  }
@@ -13,22 +13,28 @@ box-sizing: border-box;
     text-align: center;
     font-size: 55px;
     border: 5px black solid;
-    width: 450px;
-    height: 70px;
-    padding: 5px 10px;
+    width: 650px;
+    height: 100px;
+    padding: 20px 30px;
     margin: auto;
  }
 
- ul {
-    width: auto;
-    height: 200px;
+ .container {
+    width: 700px;
+    height: 100px;
     display: flex;
-    justify-content: space-evenly;
-    background-color: aqua;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgba(2, 192, 255, 0.855);
     border: 3px, black, solid;
+    margin: auto;
+    margin-top: 50px;
+    padding: 3em;
  }
 
- .list {
-    background-color: black;
-    color: white
+ div > .list {
+   background-color: rgba(2, 192, 255, 0.855);
+   color: black;
+   font-size: 30px;
+   margin: auto;
  }
